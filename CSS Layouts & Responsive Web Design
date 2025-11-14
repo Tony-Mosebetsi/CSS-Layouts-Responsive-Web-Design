@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Layouts & Responsive Design</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Responsive Layout Demo</h1>
+        <nav class="main-nav">
+            <a href="#">Home</a>
+            <a href="#">Features</a>
+            <a href="#">Pricing</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <div class="grid-container">
+        <main class="content">
+            <h2>Main Content Area</h2>
+            <p>
+                This area is positioned using **CSS Grid** and contains the primary information. On desktop, it sits next to the sidebar. On smaller screens, the sidebar will stack below it. We are using responsive units like `rem` and percentages here.
+            </p>
+
+            <section class="flex-cards">
+                <h3>Flexbox Card Section</h3>
+                <div class="card-wrapper">
+                    <div class="card">
+                        <h4>Card One</h4>
+                        <p>Aligned with Flexbox.</p>
+                    </div>
+                    <div class="card">
+                        <h4>Card Two</h4>
+                        <p>Flexible widths.</p>
+                    </div>
+                    <div class="card">
+                        <h4>Card Three</h4>
+                        <p>Consistent spacing.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <aside class="sidebar">
+            <h3>Sidebar</h3>
+            <ul>
+                <li>Responsive Units (rem, %)</li>
+                <li>CSS Grid Layout</li>
+                <li>Flexbox Alignment</li>
+                <li>Media Queries (Mobile-First)</li>
+            </ul>
+        </aside>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Responsive Design Assignment</p>
+    </footer>
+
+</body>
+</html>
